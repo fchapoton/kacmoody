@@ -253,5 +253,5 @@ def numerology(dim, count, h=10):
                     try:
                         file.write(str(root) + ", " + str(roots[root]) + "\n")
                     except ZeroDivisionError as (errno, errstr):
-                        print "ZeroDivisionError({0}): {1}".format(errno, strerror)
+                        print("ZeroDivisionError({0}): {1}".format(errno, strerror))
                 file.write("\n\n")
